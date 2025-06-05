@@ -1,0 +1,15 @@
+{
+  "short_name": "Zenlit",
+  "name": "Zenlit Web",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "200x60",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
