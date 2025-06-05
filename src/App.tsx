@@ -25,7 +25,7 @@ function AppContent() {
   if (!user) {
     return (
       <Routes>
-        <Route path="/signin\" element={<PublicRoute><SignIn /></PublicRoute>} />
+        <Route path="/signin" element={<PublicRoute><SignIn /></PublicRoute>} />
         <Route path="/signup" element={<PublicRoute><SignUp /></PublicRoute>} />
         <Route path="*" element={<Navigate to="/signin" />} />
       </Routes>
