@@ -55,3 +55,9 @@ The table includes PostGIS support for geospatial queries. The `last_known_locat
 The `created_at` and `updated_at` fields are automatically managed by the database:
 - `created_at` is set when a record is inserted
 - `updated_at` is updated whenever a record is modified
+
+---
+
+## Zenlit Web Frontend
+
+The `zenlit-web` directory contains a React application configured for deployment on GitHub Pages. It provides a simple demo with dummy authentication, a Leaflet map, and basic chat interface. See [`zenlit-web/README.md`](zenlit-web/README.md) for setup and deployment instructions.
