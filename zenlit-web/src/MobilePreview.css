@@ -1,0 +1,5 @@
+/* Optional mobile preview styles */
+body {
+  display: flex;
+  justify-content: center;
+}
