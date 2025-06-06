@@ -16,7 +16,7 @@ export default function SignUp() {
       setError('');
       setLoading(true);
       await signUp(email, password);
-    } catch (err) {
+    } catch {
       setError('Failed to create an account. Please try again.');
     } finally {
       setLoading(false);

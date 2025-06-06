@@ -16,7 +16,7 @@ export default function SignIn() {
       setError('');
       setLoading(true);
       await signIn(email, password);
-    } catch (err) {
+    } catch {
       setError('Failed to sign in. Please check your credentials.');
     } finally {
       setLoading(false);
